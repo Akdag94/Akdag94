@@ -54,16 +54,26 @@
 ## 🏆 GitHub
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Akdag94&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" alt="trophies"/>
+  <img src="https://img.shields.io/github/followers/Akdag94?style=for-the-badge&logo=github&labelColor=0f2027&color=2c5364" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/Akdag94?affiliations=OWNER&style=for-the-badge&logo=github&labelColor=0f2027&color=2c5364" alt="stars"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Akdag94&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akdag94&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akdag94&theme=tokyonight" alt="profile summary"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Akdag94&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akdag94&theme=tokyonight" alt="stats"/>
+  <img height="185" src="https://streak-stats.demolab.com?user=Akdag94&theme=tokyonight&hide_border=true" alt="streak"/>
+</p>
+
+<p align="center">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akdag94&theme=tokyonight" alt="top languages by repo"/>
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akdag94&theme=tokyonight" alt="top languages by commit"/>
+</p>
+
+<p align="center">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Akdag94&theme=tokyonight&utcOffset=3" alt="productive time"/>
 </p>
 
 <p align="center">
