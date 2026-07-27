@@ -24,12 +24,40 @@
 
 ## 🚀 What I'm building
 
+### 🟢 Products — my own SaaS
+
 | Project | What it is | Stack |
 |---|---|---|
-| **[Plankur](https://plankur.com)** | Appointment scheduling SaaS — online booking pages, WhatsApp reminders, staff calendars, payments & finance in one panel | Next.js · Supabase · iyzico |
-| **[vps-ops-mcp](https://github.com/Akdag94/vps-ops-mcp)** | Open-source MCP server for safe, structured VPS ops over SSH — [on npm](https://www.npmjs.com/package/vps-ops-mcp) | TypeScript · MCP SDK |
-| **[B2Fest](https://b2fest.com)** | Festival & event discovery platform | Next.js · Prisma · PostgreSQL |
-| **[azatakdag.com](https://github.com/Akdag94/azatakdag.com)** | My portfolio — a cinematic scroll experience | Next.js · GSAP |
+| **[Plankur](https://plankur.com)** | Appointment scheduling SaaS for service businesses — public booking pages, WhatsApp reminders, staff calendars, payments and finance in one panel | Next.js · Supabase · iyzico |
+| **[Plankur Mobile](https://github.com/Akdag94/plankur-mobile)** | The business-owner panel as a native app — same calendar, notifications on the phone | React Native (Expo) · TypeScript |
+| **[B2Fest](https://b2fest.com)** | Festival & event discovery platform — search, listings and ticket discovery for the Turkish festival scene | Next.js · Prisma · PostgreSQL · Redis · Meilisearch |
+| **[Akıllı QR Menü](https://github.com/Akdag94/akilliqrmenu)** | Micro-SaaS for cafés: QR menu with *call waiter* / *request bill*, plus owner-side analytics | React + Vite · PHP 8.2 (Slim 4) · PostgreSQL · Redis · Docker |
+| **[Kuaför Bulma](https://github.com/Akdag94/kuaforbulmaopt)** | Semi-automatic B2B lead pipeline for Plankur. It never sends a message itself — it prepares the text and opens the `wa.me` link, the human presses send. That is a deliberate ban-risk decision | Node.js · JavaScript |
+
+### 🏢 Systems I build for businesses
+
+| Project | What it is | Stack |
+|---|---|---|
+| **ToptanPortal** 🔒 | B2B commerce & customer portal for HoReCa wholesalers — matrix pricing, live stock reservation, current-account statements and collections, two-way Logo ERP integration over an on-prem mTLS bridge. Permission-based RBAC, a *Blind Order Mode* that strips every monetary field server-side, and a hash-chained audit log built for 5651 / 5070 evidence | NestJS · Next.js · PostgreSQL · Prisma · Redis · SwiftUI · .NET 8 |
+| **Miki Coffee** 🔒 | Cross-platform coffee ordering & loyalty ecosystem — iOS, Android and web on one backend | TypeScript · React Native · Node.js |
+| **Lumare Büfe** 🔒 | POS & business management system for a self-service cafeteria — sales, stock and daily reporting | Next.js · Supabase |
+| **[GreenNova ERP](https://github.com/Akdag94/greennova-erp)** | Cold storage & logistics management for an agriculture company — chamber tracking, shipments, cost reporting | Django · Python · PostgreSQL |
+| **GreenNova Website** 🔒 | Corporate site with a lightweight PHP admin panel the client can actually use | PHP · MySQL |
+
+### 🧰 Developer tools & open source
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[vps-ops-mcp](https://github.com/Akdag94/vps-ops-mcp)** | MCP server for safe, structured VPS operations over SSH — nginx, PM2, SSL, UFW, fail2ban. Read-only by default, because handing an AI raw root SSH is not a plan. [On npm](https://www.npmjs.com/package/vps-ops-mcp) | TypeScript · MCP SDK |
+| **CV Otomasyon** 🔒 | Collects job listings from LinkedIn, RemoteOK, Remotive and Arbeitnow, scores them against rules in a config file, and drafts cover letters with Claude | Python · Claude API |
+
+### 🎨 Personal
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[azatakdag.com](https://github.com/Akdag94/azatakdag.com)** | My portfolio — a cinematic scroll experience | Next.js · GSAP · Tailwind |
+
+<sub>🔒 = private repository — client work or not public yet.</sub>
 
 ## 🛠 Tech stack
 
