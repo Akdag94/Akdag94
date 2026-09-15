@@ -28,34 +28,38 @@
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[cepte.menu](https://cepte.menu)** | QR menu SaaS for restaurants and cafés — management panel with multi-branch support and role-based staff permissions, menus published as static pages, automatic translation into five languages, Excel import/export, QR design and print-ready menus | TypeScript · Fastify · PostgreSQL · Drizzle · React + Vite |
 | **[Plankur](https://plankur.com)** | Appointment scheduling SaaS for service businesses — public booking pages, WhatsApp reminders, staff calendars, payments and finance in one panel | Next.js · Supabase · iyzico |
-| **[Plankur Mobile](https://github.com/Akdag94/plankur-mobile)** | The business-owner panel as a native app — same calendar, notifications on the phone | React Native (Expo) · TypeScript |
+| **Plankur Mobile** 🔒 | The business-owner panel as a native app — same calendar, notifications on the phone | React Native (Expo) · TypeScript |
 | **[B2Fest](https://b2fest.com)** | Festival & event discovery platform — search, listings and ticket discovery for the Turkish festival scene | Next.js · Prisma · PostgreSQL · Redis · Meilisearch |
-| **[Akıllı QR Menü](https://github.com/Akdag94/akilliqrmenu)** | Micro-SaaS for cafés: QR menu with *call waiter* / *request bill*, plus owner-side analytics | React + Vite · PHP 8.2 (Slim 4) · PostgreSQL · Redis · Docker |
-| **[Kuaför Bulma](https://github.com/Akdag94/kuaforbulmaopt)** | Semi-automatic B2B lead pipeline for Plankur. It never sends a message itself — it prepares the text and opens the `wa.me` link, the human presses send. That is a deliberate ban-risk decision | Node.js · JavaScript |
+| **Akıllı QR Menü** 🔒 | Micro-SaaS for cafés: QR menu with *call waiter* / *request bill*, plus owner-side analytics | React + Vite · PHP 8.2 (Slim 4) · PostgreSQL · Redis · Docker |
+| **Kuaför Bulma** 🔒 | Semi-automatic B2B lead pipeline for Plankur. It never sends a message itself — it prepares the text and opens the `wa.me` link, the human presses send. That is a deliberate ban-risk decision | Node.js · JavaScript |
 
 ### 🏢 Systems I build for businesses
 
 | Project | What it is | Stack |
 |---|---|---|
 | **ToptanPortal** 🔒 | B2B commerce & customer portal for HoReCa wholesalers — matrix pricing, live stock reservation, current-account statements and collections, two-way Logo ERP integration over an on-prem mTLS bridge. Permission-based RBAC, a *Blind Order Mode* that strips every monetary field server-side, and a hash-chained audit log built for 5651 / 5070 evidence | NestJS · Next.js · PostgreSQL · Prisma · Redis · SwiftUI · .NET 8 |
+| **[AYKATECH](https://aykatech.com)** | Corporate website for a software & ERP solutions company — product pages, references and a built-in content panel the team manages themselves | Next.js · TypeScript |
+| **ZEC Karavan** 🔒 | Promotional website for a caravan brand | Next.js · TypeScript |
 | **Miki Coffee** 🔒 | Cross-platform coffee ordering & loyalty ecosystem — iOS, Android and web on one backend | TypeScript · React Native · Node.js |
 | **Lumare Büfe** 🔒 | POS & business management system for a self-service cafeteria — sales, stock and daily reporting | Next.js · Supabase |
-| **[GreenNova ERP](https://github.com/Akdag94/greennova-erp)** | Cold storage & logistics management for an agriculture company — chamber tracking, shipments, cost reporting | Django · Python · PostgreSQL |
+| **GreenNova ERP** 🔒 | Cold storage & logistics management for an agriculture company — chamber tracking, shipments, cost reporting | Django · Python · PostgreSQL |
 | **GreenNova Website** 🔒 | Corporate site with a lightweight PHP admin panel the client can actually use | PHP · MySQL |
 
-### 🧰 Developer tools & open source
+### 🧰 Developer tools
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[vps-ops-mcp](https://github.com/Akdag94/vps-ops-mcp)** | MCP server for safe, structured VPS operations over SSH — nginx, PM2, SSL, UFW, fail2ban. Read-only by default, because handing an AI raw root SSH is not a plan. [On npm](https://www.npmjs.com/package/vps-ops-mcp) | TypeScript · MCP SDK |
+| **[vps-ops-mcp](https://www.npmjs.com/package/vps-ops-mcp)** | MCP server for safe, structured VPS operations over SSH — nginx, PM2, SSL, UFW, fail2ban. Read-only by default, because handing an AI raw root SSH is not a plan. Published on npm | TypeScript · MCP SDK |
 | **CV Otomasyon** 🔒 | Collects job listings from LinkedIn, RemoteOK, Remotive and Arbeitnow, scores them against rules in a config file, and drafts cover letters with Claude | Python · Claude API |
 
 ### 🎨 Personal
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[azatakdag.com](https://github.com/Akdag94/azatakdag.com)** | My portfolio — a cinematic scroll experience | Next.js · GSAP · Tailwind |
+| **AZAP** 🔒 | Real-time multiplayer social deduction game in the browser — 4 to 20 players, night and day phases, independent roles | Node.js · Express · Socket.IO |
+| **[azatakdag.com](https://azatakdag.com)** | My portfolio — a cinematic scroll experience | Next.js · GSAP · Tailwind |
 
 <sub>🔒 = private repository — client work or not public yet.</sub>
 
@@ -83,21 +87,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/Akdag94?style=for-the-badge&logo=github&labelColor=0f2027&color=2c5364" alt="followers"/>
-  <img src="https://img.shields.io/github/stars/Akdag94?affiliations=OWNER&style=for-the-badge&logo=github&labelColor=0f2027&color=2c5364" alt="stars"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akdag94&theme=tokyonight" alt="profile summary"/>
-</p>
-
-<p align="center">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akdag94&theme=tokyonight" alt="stats"/>
   <img height="185" src="https://streak-stats.demolab.com?user=Akdag94&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
-
-<p align="center">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akdag94&theme=tokyonight" alt="top languages by repo"/>
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akdag94&theme=tokyonight" alt="top languages by commit"/>
 </p>
 
 <p align="center">
